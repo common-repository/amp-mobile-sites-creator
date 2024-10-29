@@ -1,0 +1,246 @@
+.plugin-wrap {
+    position: relative;
+    width: 694px;
+}
+
+.plugin-wrap > h1 {
+    line-height: 28px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 90px;
+}
+
+.pages-list-title {
+    border-top: 1px solid #E5E5E5;
+    display: inline-block;
+    width: 300px;
+    padding: 10px 15px;
+    margin: 0 15px 0 0;
+    float: left;
+    text-align: center;
+}
+
+.pages-list {
+    border: 1px solid #E5E5E5;
+    background: #F9F9F9;
+    width: 300px;
+    height: 350px;
+    padding: 15px;
+    margin-right: 15px;
+    overflow: auto;
+    float: left;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.pages-list-item {
+    margin-bottom: 10px;
+    height: 18px;
+    overflow: hidden;
+}
+
+.pages-list-item label {
+    margin-left: 10px;
+    line-height: 18px;
+    vertical-align: top;
+}
+
+.button-panel {
+    padding-bottom: 15px;
+}
+
+.button-panel button {
+    margin-right: 10px;
+}
+
+.plugin-wrap > .button {
+    margin-top: 15px;
+}
+
+.button-row {
+    margin-top: 15px;
+    text-align: center;
+    height: 28px;
+}
+
+#action-enter-account,
+#action-export,
+#action-credentials,
+#action-open-project {
+    float: left;
+}
+
+#action-logout,
+#action-update,
+#action-merge,
+#action-create-account {
+    float: right;
+    margin-right: 15px;
+}
+
+#action-update {
+    margin-right: 117px;
+}
+
+#action-open-project {
+    display: inline-block;
+    margin-left: 130px;
+}
+
+.modal {
+    display: none;
+    width: calc(100% + 15px);
+    height: 250%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: -20px;
+    z-index: 100;
+    text-align: center;
+}
+
+.modal-content-wrap {
+    border: 1px solid #E5E5E5;
+    background: #F9F9F9;
+    width: 500px;
+    position: absolute;
+    left: calc(50% - 310px);
+    top: 160px;
+    padding-bottom: 15px;
+}
+
+.modal-content-wrap h3 {
+    margin-top: 25px;
+}
+
+.modal-content-wrap .row {
+    margin: 10px 0;
+}
+
+.modal-content-wrap .row label {
+    width: 100px;
+    height: 24px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: -110px;
+}
+
+.modal-content-wrap .form-result {
+    display: none;
+    padding: 5px;
+    margin: 15px auto 0;
+    width: 350px;
+}
+
+.modal-content-wrap .form-error-msg {
+    border: 1px solid #a72424;
+}
+
+.modal-content-wrap .form-succses-msg {
+    border: 1px solid #42a222;
+}
+
+#modal-update .modal-content-wrap {
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+#modal-update h3 {
+    text-align: center;
+}
+
+#modal-update #btn-close-model-update {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+}
+
+#modal-update .page {
+    border: 1px solid #E5E5E5;
+    background: #fff;
+    margin: 25px 15px 0;
+    padding: 0 15px 0px;
+}
+
+#modal-update .page h3 {
+    margin: 15px 0 0;
+}
+
+#modal-update .page h4 {
+    text-align: center;
+    cursor: pointer;
+    background: #0073AA;
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    width: calc(50% - 7px);
+    box-sizing: border-box;
+    display: inline-block;
+    color: #fff;
+}
+
+#modal-update .page h4:nth-child(1) {
+    margin-right: 7px;
+}
+
+#modal-update .page h4:nth-child(2) {
+    margin-left: 7px;
+}
+
+#modal-update .html-content,
+#modal-update .css-content {
+    display: none;
+}
+
+.progress-bar {
+    border: 1px solid #E5E5E5;
+    margin: 25px;
+    background: #F1F1F1;
+    position: relative;
+}
+
+.progress-bar div {
+    background: #4CAF50;
+}
+
+.progress-bar span {
+    display: inline-block;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: calc(50% - 15px);
+}
+
+.use-amp-block {
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 10px;
+    width: 265px;
+    margin-top: 5px;
+    position: absolute;
+    left: calc(50% - 135px);
+}
+
+.use-amp-block label {
+    height: 23px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.no-differences {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16px;
+}

@@ -1,0 +1,164 @@
+.Differences {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-right: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  empty-cells: show;
+}
+
+.Differences thead th {
+  text-align: center;
+  border: 1px solid #E5E5E5;
+  background: #F1F1F1;
+  color: #444;
+  padding: 4px;
+}
+.Differences tbody th {
+  text-align: center;
+  background: #F1F1F1;
+  width: 4em;
+  padding: 1px 2px;
+  border-left: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  vertical-align: top;
+  font-size: 13px;
+}
+
+.Differences td {
+  padding: 1px 2px;
+  font-family: Consolas, monospace;
+  font-size: 13px;
+  vertical-align: top;
+  width: 50%;
+  max-width: 50%;
+}
+
+.Differences,
+.Differences td span,
+.Differences td span ins,
+.Differences td span del {
+  display: inline-block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.Differences tr th
+{
+  word-break: normal;
+}
+
+.DifferencesSideBySide .ChangeInsert td.Left {
+  background: #dfd;
+}
+
+.DifferencesSideBySide .ChangeInsert td.Right {
+  background: #cfc;
+}
+
+.DifferencesSideBySide .ChangeDelete td.Left {
+  background: #f88;
+}
+
+.DifferencesSideBySide .ChangeDelete td.Right {
+  background: #faa;
+}
+
+.DifferencesSideBySide .ChangeReplace .Left {
+  background: #fe9;
+}
+
+.DifferencesSideBySide .ChangeReplace .Right {
+  background: #fd8;
+}
+
+.Differences ins, .Differences del {
+  text-decoration: none;
+}
+
+.DifferencesSideBySide .ChangeReplace ins, .DifferencesSideBySide .ChangeReplace del {
+  background: #fc0;
+}
+
+.Differences .Skipped {
+  background: #f7f7f7;
+}
+
+.DifferencesInline .ChangeReplace .Left,
+.DifferencesInline .ChangeDelete .Left {
+  background: #fdd;
+}
+
+.DifferencesInline .ChangeReplace .Right,
+.DifferencesInline .ChangeInsert .Right {
+  background: #dfd;
+}
+
+.DifferencesInline .ChangeReplace ins {
+  background: #9e9;
+}
+
+.DifferencesInline .ChangeReplace del {
+  background: #e99;
+}
+
+pre {
+  width: 100%;
+  overflow: auto;
+}
+
+.Differences .ChangeDelete td, .Differences .ChangeInsert td, .Differences .ChangeReplace td {
+  cursor: pointer
+}
+
+.Differences .ChangeDelete td.dontUse.hover, .Differences .ChangeDelete td.dontUse.hover del, .Differences .ChangeDelete td.dontUse.hover ins, .Differences .ChangeDelete td.hover, .Differences .ChangeDelete td.hover del, .Differences .ChangeDelete td.hover ins, .Differences .ChangeInsert td.dontUse.hover, .Differences .ChangeInsert td.dontUse.hover del, .Differences .ChangeInsert td.dontUse.hover ins, .Differences .ChangeInsert td.hover, .Differences .ChangeInsert td.hover del, .Differences .ChangeInsert td.hover ins, .Differences .ChangeReplace td.dontUse.hover, .Differences .ChangeReplace td.dontUse.hover del, .Differences .ChangeReplace td.dontUse.hover ins, .Differences .ChangeReplace td.hover, .Differences .ChangeReplace td.hover del, .Differences .ChangeReplace td.hover ins {
+  background: #23282D;
+  color: #fff
+}
+
+.Differences .ChangeDelete td.use.hover, .Differences .ChangeInsert td.use.hover, .Differences .ChangeReplace td.use.hover {
+  cursor: default;
+  color: #000
+}
+
+.Differences .ChangeDelete td.use.hover del, .Differences .ChangeDelete td.use.hover ins, .Differences .ChangeInsert td.use.hover del, .Differences .ChangeInsert td.use.hover ins, .Differences .ChangeReplace td.use.hover del, .Differences .ChangeReplace td.use.hover ins {
+  background: #6EEF81;
+  color: #000
+}
+
+.Differences .ChangeDelete td.use, .Differences .ChangeInsert td.use, .Differences .ChangeReplace td.use {
+  background: #6EEF81
+}
+
+.Differences .ChangeDelete td.dontUse, .Differences .ChangeInsert td.dontUse, .Differences .ChangeReplace td.dontUse {
+  background: #F7F7F7;
+}
+
+.Differences .ChangeReplace td.use del, .Differences .ChangeReplace td.use ins, .Differences .ChangeReplace td.use.hover del, .Differences .ChangeReplace td.use.hover ins {
+  background: #0CD123
+}
+
+.Differences .ChangeReplace td.dontUse del, .Differences .ChangeReplace td.dontUse ins {
+  background: #DDD;
+  color: #BBB
+}
+
+.Differences.DifferencesInline .ChangeDelete td.use.hover, .Differences.DifferencesInline .ChangeInsert td.use.hover {
+  cursor: pointer
+}
+
+.Differences.DifferencesInline .ChangeDelete td.dontUse.hover, .Differences.DifferencesInline .ChangeDelete td.dontUse.hover del, .Differences.DifferencesInline .ChangeDelete td.dontUse.hover ins, .Differences.DifferencesInline .ChangeDelete td.hover, .Differences.DifferencesInline .ChangeDelete td.hover del, .Differences.DifferencesInline .ChangeDelete td.hover ins, .Differences.DifferencesInline .ChangeInsert td.dontUse.hover, .Differences.DifferencesInline .ChangeInsert td.dontUse.hover del, .Differences.DifferencesInline .ChangeInsert td.dontUse.hover ins, .Differences.DifferencesInline .ChangeInsert td.hover, .Differences.DifferencesInline .ChangeInsert td.hover del, .Differences.DifferencesInline .ChangeInsert td.hover ins {
+  background: #23282D;
+  color: #fff
+}
+.ChangeEqual td {
+  color: #AAA;
+}
